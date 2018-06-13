@@ -54,3 +54,15 @@ git remote add origin https://github.com/RHzzz/learn.git
 git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+#分支
+git checkout -b dev
+#等于
+git branch dev
+git checkout dev
+
+git branch #查看分支
+
+git merge dev #合并
+
+git branch -d dev #删除分支

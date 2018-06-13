@@ -66,3 +66,7 @@ git branch #查看分支
 git merge dev #合并
 
 git branch -d dev #删除分支
+
+git log --graph --pretty=oneline --abbrev-commit #查看分支情况
+
+Git merge --no-ff dev

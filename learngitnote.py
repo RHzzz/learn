@@ -70,3 +70,5 @@ git branch -d dev #删除分支
 git log --graph --pretty=oneline --abbrev-commit #查看分支情况
 
 Git merge --no-ff dev
+
+bug1.0
